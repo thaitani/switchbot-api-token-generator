@@ -1,4 +1,4 @@
-import { encode } from "https://deno.land/std/encoding/base64.ts";
+import { encode } from "https://deno.land/std@0.178.0/encoding/base64.ts";
 import "https://deno.land/std@0.178.0/dotenv/load.ts";
 
 const token = Deno.env.get("TOKEN") as string;

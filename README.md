@@ -6,6 +6,7 @@
 - `.env`配置
   - `TOKEN`
   - `SECRET`
+  - `NONCE`
 
 ## 実行
 

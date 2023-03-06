@@ -3,9 +3,8 @@ import "https://deno.land/std@0.178.0/dotenv/load.ts";
 
 const token = Deno.env.get("TOKEN") as string;
 const secret = Deno.env.get("SECRET") as string;
+const nonce = Deno.env.get("NONCE") as string;
 const t = Date.now();
-
-const nonce = "requestID";
 const data = token + t + nonce;
 
 const encoder = new TextEncoder();
